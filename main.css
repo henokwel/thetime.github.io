@@ -8,6 +8,9 @@
 
 html,
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     height: 100vh;
     width: 100vw;
     background-color: #1c1c1c;
@@ -17,12 +20,47 @@ body {
     background-size: 70% 70%;
     background-position-x: center;
     background-position-y: center;
-    font-family: 'Lacquer', cursive;
-}
-.Argentina{
-background-color: red;
+    font-family: "Lacquer", cursive;
 }
 
-.Australia7{
-    background-color: red;
+header {
+    display: flex;
+    justify-content: flex-end;
+    width: 100vw;
+    padding: 10px;
+}
+.stamp {
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10vw;
+    background-color: #1c1c1c;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: clamp(2rem, 40vw, 5rem);
+    line-height: 80px;
+    margin: 10px;
+}
+
+.country {
+    width: 70%;
+    height: 100%;
+    margin-left: 3vw;
+    padding: 10px;
+ }
+
+.map{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+     /* height: 80%; */
+       
+}
+#vmap{
+    width: 600px;
+    height: 400px;
 }

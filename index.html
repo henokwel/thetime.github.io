@@ -22,14 +22,16 @@
             Enjoy it</p>
     </header>
     <main>
-        <div>
-            <h1 id="hour"></h1>
+        <div class="stamp">
+            <div>
+                <h1 id="hour"></h1>
+                <h1 id="min"></h1>
+            </div>
             <h1 class="country"></h1>
-            <h1 id="min"></h1>
         </div>
 
         <div class="map">
-            <div id="vmap" style="width: 600px; height: 400px;"></div>
+            <div id="vmap" "></div>
         </div>
     </main>
     <div>
@@ -39,8 +41,12 @@
     <script src="./moment.js"></script>
     <script src="./moment-timezone-with-data.js"></script>
     <script>
- 
+
         $(document).ready((e) => {
+            console.log(navigator.geolocation);
+            
+            
+            
             let hours = document.querySelector("#hours")
             let minut = document.querySelector("#min")
             $("#vmap").vectorMap({
@@ -51,11 +57,14 @@
                 color: '#797979',
 
                 onRegionClick: function (element, code, region) {
-                    var zones = moment.tz.zonesForCountry(code)[0]
+                    let zones = moment.tz.zonesForCountry(code)[0]
                     let hour = moment().tz(zones).format('HH')
                     let min = moment().tz(zones).format('mm')
                     $("#hour").text(hour)
                     $("#min").text(min)
+                    $(".country").text(region)
+
+
                 }
             });
 

@@ -30,7 +30,7 @@ header {
     padding: 10px;
 }
 .stamp {
-     display: flex;
+    display: flex;
     flex-direction: row;
     align-items: center;
     margin-left: 10vw;
@@ -49,21 +49,21 @@ h1 {
     height: 100%;
     margin-left: 3vw;
     padding: 10px;
- }
+}
 
-.map{
+.map {
     position: absolute;
     width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-     /* height: 80%; */
-       
+    /* height: 80%; */
 }
-#vmap{
+#vmap {
     width: 600px;
     height: 400px;
 }
-.jqvmap-label{
-    display: hidden;
+.jqvmap-label {
+    display: none !important;
+
 }

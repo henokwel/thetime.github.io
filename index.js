@@ -5,8 +5,7 @@ $(document).ready((e) => {
     
     let hours = document.querySelector("#hours")
     let minut = document.querySelector("#min")
-    const vMap = document.querySelector("#vmap")
-    
+     
     $("#vmap").vectorMap({
         map: 'world_en',
         selectedColor: '#ffff',

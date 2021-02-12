@@ -24,7 +24,6 @@ $(document).ready((e) => {
         }
     });
 
-    $(".jqvmap-label").remove()
-
+ 
 
 })

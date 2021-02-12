@@ -1,19 +1,7 @@
-.jqvmap-label,
-.jqvmap-pin {
+ .jqvmap-pin {
     pointer-events: none;
 }
-.jqvmap-label {
-    position: absolute;
-    display: none;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-    background: #292929;
-    color: #fff;
-    font-family: sans-serif, Verdana;
-    font-size: smaller;
-    padding: 3px;
-}
+ 
 .jqvmap-zoomin,
 .jqvmap-zoomout {
     position: absolute;

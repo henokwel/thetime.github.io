@@ -34,11 +34,13 @@
 }
 .jqvmap-zoomin
 {
-	top: 10px;
+	/* top: 10px; */
+	display: none;
 }
 .jqvmap-zoomout
 {
-	top: 30px;
+	display: none;
+	/* top: 30px; */
 }
 .jqvmap-region
 {

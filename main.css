@@ -77,7 +77,8 @@ h1 {
     height: 400px;
 }
 .jqvmap-label {
-    visibility: hidden;
+    
+    display: none !important ;
 }
 
 @media screen and (max-width: 700px) {

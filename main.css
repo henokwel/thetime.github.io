@@ -37,7 +37,10 @@ header {
     flex-direction: row;
     align-items: center;
     margin-left: 10vw;
+    min-height: 160px;
     background-color: #1c1c1c;
+    margin-bottom: 5px;
+    padding: 10px;
 }
 
 h1 {
@@ -76,10 +79,7 @@ h1 {
     width: 600px;
     height: 400px;
 }
-.jqvmap-label {
-    
-    display: none !important ;
-}
+
 
 @media screen and (max-width: 700px) {
     h1 {

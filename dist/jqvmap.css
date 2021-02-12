@@ -1,17 +1,8 @@
  
 .jqvmap-label
 {
-	position: absolute;
-	display: none;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-	background: #292929;
-	color: white;
-	font-family: sans-serif, Verdana;
-	font-size: smaller;
-	padding: 3px;
-  pointer-events:none;
+ 	display: none !important;
+	 
 }
 .jqvmap-pin {
   pointer-events:none;
@@ -35,11 +26,11 @@
 .jqvmap-zoomin
 {
 	/* top: 10px; */
-	display: none;
+	display: none !important;
 }
 .jqvmap-zoomout
 {
-	display: none;
+	display: none !important;
 	/* top: 30px; */
 }
 .jqvmap-region

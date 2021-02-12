@@ -1,12 +1,12 @@
 $(document).ready((e) => {
     console.log(navigator.geolocation);
-    
-    
-    
+
+
+
     let hours = document.querySelector("#hours")
     let minut = document.querySelector("#min")
-    
-     
+
+
     $("#vmap").vectorMap({
         map: 'world_en',
         selectedColor: '#ffff',

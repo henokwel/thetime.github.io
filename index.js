@@ -5,6 +5,7 @@ $(document).ready((e) => {
     
     let hours = document.querySelector("#hours")
     let minut = document.querySelector("#min")
+    
      
     $("#vmap").vectorMap({
         map: 'world_en',
@@ -22,5 +23,8 @@ $(document).ready((e) => {
             $(".country").text(region)
         }
     });
+
+    $(".jqvmap-label").remove()
+
 
 })

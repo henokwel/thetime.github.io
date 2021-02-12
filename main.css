@@ -95,22 +95,6 @@ h1 {
     }
 }
 
-/* 
-@media screen and (max-width: 400px) {
-    h1 {
-      font-size:   clamp(1rem, 7vw, 3rem);
-      line-height: normal;
-     }
-
-     #hour{
-         margin-bottom: 0;
-     }
-     #min{
-         margin-top: 0;
-     }
-     
-  } */
-
 /* Animation Text */
 
 /* ----------------------------------------------

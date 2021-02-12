@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lacquer&display=swap");
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -12,7 +14,15 @@ body {
     color: #ffff;
     background-image: url(./Assets/skullSvg.svg);
     background-repeat: no-repeat;
-    background-size: 70% 70% ;
+    background-size: 70% 70%;
     background-position-x: center;
     background-position-y: center;
+    font-family: 'Lacquer', cursive;
+}
+.Argentina{
+background-color: red;
+}
+
+.Australia7{
+    background-color: red;
 }

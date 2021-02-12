@@ -27,6 +27,7 @@ header {
     display: flex;
     justify-content: flex-end;
     width: 100vw;
+    padding: 0;
     /* position: absolute;
     top: 0;
     right:0; */

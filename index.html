@@ -11,8 +11,7 @@
     <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" type="text/javascript"></script> -->
 
     <!-- <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script> -->
-    <script type="text/javascript" src="../dist/jquery.vmap.js"></script>
-    <script type="text/javascript" src="../dist/maps/jquery.vmap.world.js" charset="utf-8"></script>
+   
 
     <link rel="stylesheet" href="main.css">
     <title>The time</title>
@@ -39,13 +38,18 @@
     <div>
 
     </div>
-
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./dist/jquery.vmap.js"></script>
+    <script src="./dist/maps/jquery.vmap.world.js"></script>
     <script src="./moment.js"></script>
     <script src="./moment-timezone-with-data.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+
+
+    
     <script>
-
         $(document).ready((e) => {
             console.log(navigator.geolocation);
             
@@ -55,7 +59,7 @@
             let minut = document.querySelector("#min")
             const vMap = document.querySelector("#vmap")
             
-            jQuery("#vmap").vectorMap({
+            $("#vmap").vectorMap({
                 map: 'world_en',
                 selectedColor: '#ffff',
                 backgroundColor: "none",

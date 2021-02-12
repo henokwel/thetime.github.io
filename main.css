@@ -27,7 +27,6 @@ header {
     display: flex;
     justify-content: flex-end;
     width: 100vw;
-    padding: 10px;
     /* position: absolute;
     top: 0;
     right:0; */
@@ -39,7 +38,6 @@ header {
     margin-left: 10vw;
     min-height: 150px;
     background-color: #1c1c1c;
-    padding: 10px;
 }
 
 h1 {

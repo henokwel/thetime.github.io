@@ -63,7 +63,6 @@ h1 {
     margin-left: 3vw;
     padding: 10px;
     animation: text-flicker-in-glow 4s infinite both;
-
 }
 
 .map {
@@ -72,14 +71,17 @@ h1 {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    opacity: .8;
+    opacity: 0.8;
     /* height: 80%; */
 }
 #vmap {
     width: 600px;
     height: 400px;
 }
-
+.jqvmap-label {
+    /* display: none !important ; */
+    visibility: collapse !important ;
+}
 
 @media screen and (max-width: 700px) {
     h1 {

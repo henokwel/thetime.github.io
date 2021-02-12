@@ -48,8 +48,13 @@ h1 {
     margin: 10px;
 }
 
+/* h:3, m:4 , c:5 sec animation */
 #hour {
     animation: text-flicker-in-glow 5s infinite both;
+}
+
+#hour::after{
+    content: ";";
 }
 #min {
     animation: text-flicker-in-glow 8s infinite both;
@@ -82,9 +87,18 @@ h1 {
 }
 
 @media screen and (max-width: 700px) {
+
+    html,body{
+        height: 88%;
+    }
+    .stamp {
+        opacity: 0.93;
+    }
+
     h1 {
         font-size: clamp(1rem, 7vw, 3rem);
         line-height: normal;
+        opacity: 1;
     }
 
     #hour {
